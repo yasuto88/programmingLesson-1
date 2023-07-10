@@ -1,0 +1,35 @@
+p {
+  color: red;
+}
+
+.class {
+  color: blue;
+}
+
+#id {
+  color: yellow;
+}
+
+div.class {
+  color: green;
+}
+
+ul{
+	color: green;
+}
+
+.red-list{
+	color: red;
+}
+
+#blue-list{
+	color: blue;
+}
+
+.normal-list{
+	color: black;
+}
+
+.normal-list .red-list{
+	color: red;
+}

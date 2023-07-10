@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.people-table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.people-table th,
+.people-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.survey-form label {
+  font-weight: bold;
+}
+
+.survey-form input[type="text"],
+.survey-form input[type="password"],
+.survey-form input[type="email"],
+.survey-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.survey-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.survey-form input[type="submit"]:hover {
+  background-color: #45a049;
+}

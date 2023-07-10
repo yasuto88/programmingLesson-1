@@ -1,0 +1,19 @@
+.parent{
+	height: 160px;
+	width: 160px;
+	background-color: rgb(121, 184, 240);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.child{
+	height: 80px;
+	width: 80px;
+	background-color: chartreuse;
+}
+
+span{
+	color: red;
+	font-size: 64px;
+}
